@@ -1,0 +1,38 @@
+.introduction .left-side p {
+  
+}
+
+.introduction .left-side {
+    padding-top: 140px;
+}
+
+
+.introduction .left-side a {
+    border-color:transparent;
+}
+
+.menimbutonum {
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    color:#fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.introduction .right-side {
+    padding-top: 140px;
+}
+
+.yazieffekti {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.introduction {
+    padding-left: 148px;
+    padding-right: 149px;
+}

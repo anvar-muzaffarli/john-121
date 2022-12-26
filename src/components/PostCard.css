@@ -1,0 +1,19 @@
+.post-card {
+    width: 417px;
+    height: 295px;
+    background-color: #fff;
+}
+
+
+
+@media(max-width:1508px) and (min-width:1101px) {
+    .post-card {
+        width: 450px;
+    }
+}
+
+@media(max-width:1100px) {
+    .post-card {
+        width: 100%;
+    }
+}

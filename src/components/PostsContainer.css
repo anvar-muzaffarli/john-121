@@ -1,0 +1,31 @@
+.post-container {
+    background: #EDF7FA;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    
+}
+
+.recent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent span {
+    font-size: 22px;
+}
+
+.recent a {
+    color:#00A8CC;
+    text-decoration: none;
+}
+
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none !important;
+}
+
+
+/* 1508 1101 */
+

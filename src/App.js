@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap'
 import './App.css';
 
+import { useEffect } from 'react';
+// ANA KOMPONENT APP JS
+
+// AOS KITABXANASI
+
+import AOS from 'aos';
+import 'aos'
+
+
+// Child komponent 
+import Navbar from "./components/Navbar"
+import Introduction from './components/Introduction';
+import PostsContainer from './components/PostsContainer';
+
+
+
+
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // REACT FRAGMENT
+<>
+
+<Navbar />
+<Introduction />
+<PostsContainer />
+ </>
+
   );
 }
 
 export default App;
+
+
