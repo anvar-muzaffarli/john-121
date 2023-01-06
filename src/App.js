@@ -8,13 +8,15 @@ import { useEffect } from 'react';
 // AOS KITABXANASI
 
 import AOS from 'aos';
-import 'aos'
+
 
 
 // Child komponent 
 import Navbar from "./components/Navbar"
 import Introduction from './components/Introduction';
 import PostsContainer from './components/PostsContainer';
+
+import FeaturedWorks from './components/FeaturedWorks';
 
 
 
@@ -34,7 +36,8 @@ function App() {
 
 <Navbar />
 <Introduction />
-<PostsContainer />
+<PostsContainer />|
+<FeaturedWorks />
  </>
 
   );

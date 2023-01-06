@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "layihemizin_adi": "ERP Sistemler",
+        "tarix": "20 fevral 2022",
+        "movzu": "SOLID prinsipleri",
+        "metn": "metn 1 dsfdsgdsg",
+        "imgLink":"https://res.cloudinary.com/derzgbs7x/image/upload/v1673018584/Rectangle_30_tgwxtb.png"
+    },
+    {
+        "id": 2,
+        "layihemizin_adi": " 2ERP Sistemler",
+        "tarix": "28 fevral 2022",
+        "movzu": " 2SOLID prinsipleri",
+        "metn": "metn 1 dsfdsgdsg",
+        "imgLink":"https://res.cloudinary.com/derzgbs7x/image/upload/v1673018583/Rectangle_32_pdlsxm.png"
+    },
+    {
+        "id": 3,
+        "layihemizin_adi": " 3ERP Sistemler",
+        "tarix": "20 mart 2022",
+        "movzu": " 3SOLID prinsipleri",
+        "metn": " 3metn 1 dsfdsgdsg",
+        "imgLink": "https://res.cloudinary.com/derzgbs7x/image/upload/v1673018600/Rectangle_34_zgil4p.png"
+    }
+]
